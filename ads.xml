@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+	<Ad>
+		<!-- The URL for the ad image -->
+		<ImageUrl>Images/Products/cat1.jpg</ImageUrl>
+		<!-- The URL the ad redirects the user to -->
+		<NavigateUrl>http://www.pnw.edu</NavigateUrl>
+		<!-- The alternate text for the image -->
+		<AlternateText>Visit the Halloween Superstore</AlternateText>
+		<!-- The relative number of times this ad should appear -->
+		<!-- compared to the others -->
+		<Impressions>80</Impressions>
+		<!-- The topic of this ad (used for filtering) -->
+		<Keyword>Humanoids</Keyword>
+	</Ad>
+	<Ad>
+		<ImageUrl>Images/Products/jarjar1.jpg</ImageUrl>
+		<NavigateUrl>http://www.pnw.edu</NavigateUrl>
+		<AlternateText>Visit the Halloween Superstore</AlternateText>
+		<Impressions>40</Impressions>
+		<Keyword>People</Keyword>
+	</Ad>
+	<Ad>
+		<ImageUrl>Images/Products/martian1.jpg</ImageUrl>
+		<NavigateUrl>http://www.pnw.edu</NavigateUrl>
+		<AlternateText>Visit the Halloween Superstore</AlternateText>
+		<Impressions>40</Impressions>
+		<Keyword>Humanoids</Keyword>
+	</Ad>
+  <Ad>
+    <ImageUrl>Pictures/</ImageUrl>
+  </Ad>
+</Advertisements>
