@@ -81,11 +81,15 @@ Site Navigation Page
 _______________________________________________________________________
 Database
 -----------------------------------------------------------------------
+A Customer can have many Invoices.
+An Invoice can have only one Customer.
+A Product can have only one Category.
+A Cart can only belong to one Customer.
 
 Customers
 	CustomerID, Name, Address, City, State, ZIP, Contact Info, Credit Card Info
 Invoices
-	InvoiceID
+	InvoiceID, CustomerID
 Products
 	ProductID
 Categories
