@@ -13,6 +13,7 @@ Pages
 ----------------------------------------------------------------
 Master Page
 	Contact Info
+	Seperate Pages for Shopping and Maintenance
 
 Main Page
 	Description of Store
@@ -39,18 +40,32 @@ Checkout Page
 	Auto-generate email message that includes the order invoice, total, and the items purchased that is sent to a gmail account from 		an existing store gmail account
 
 Order History Page
-
+	Displays Current and Previous Orders
+	Accessible by a logged in customer and administrator
+		If logged in as admin then display customer selection drop down list
+		Upon selection of customer, customer current and previous orders are displayed
+		
 Invoice Page
-
+	Allows selection of invoice by invoice number
+		After update displays all the line items in the invoice
+	Must be modifiable
 *Receipt Page
 
 Order Cancellation Page
 
+Sign-In Page
+
 Maintenance: Product List Page
+	All product fields must be modifiable
+	Allows for additions, modifications, and deletions of product records
+	Must use Gridview and Detailsview controls which are linked together for a master/detail view of data
 
 Maintenance: Customer Order History
+	
 
 Maintenance: Category Items Page
+	Allows for additions, modifications, and deletions of categories records
+	Products must be related to a category
 
 Maintenance: Customer Page
 
