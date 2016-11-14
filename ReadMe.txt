@@ -23,9 +23,12 @@ Order Page
 	Gets items from SQL Server Database
 
 Cart Page
-	
+	Displays All Items in a Cart
+	"Proceed to Checkout" button that redirects to a checkout page
+	Shows the total amount in the shopping cart
 
 Checkout Page
+	Logins an existing customer before checking out
 
 Order History Page
 
