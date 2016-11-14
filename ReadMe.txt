@@ -91,8 +91,8 @@ Customers
 Invoices
 	InvoiceID, CustomerID
 Products
-	ProductID
+	ProductID, CategoryID
 Categories
 	CategoryID
 Cart Items
-	CartID
+	CartID, CustomerID
