@@ -1,12 +1,17 @@
 CNIT 255 Team Project
-
+________________________________________________________________
+Overall
+----------------------------------------------------------------
 SQL Server Database
 	Information Entered
+	
 Themes
 	Shopping Themes
 	Maintenance Themes
+	
 Site Navigation Controls
 	
+
 
 ________________________________________________________________
 Pages
@@ -69,4 +74,21 @@ Maintenance: Category Items Page
 
 Maintenance: Customer Page
 
+
 Site Navigation Page
+
+
+_______________________________________________________________________
+Database
+-----------------------------------------------------------------------
+
+Customers
+	CustomerID, Name, Address, City, State, ZIP, Contact Info, Credit Card Info
+Invoices
+	InvoiceID
+Products
+	ProductID
+Categories
+	CategoryID
+Cart Items
+	CartID
