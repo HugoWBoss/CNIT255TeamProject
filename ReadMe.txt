@@ -94,5 +94,5 @@ Products
 	ProductID, CategoryID
 Categories
 	CategoryID
-Cart Items
+Cart
 	CartID, CustomerID
