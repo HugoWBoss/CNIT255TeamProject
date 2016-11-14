@@ -6,7 +6,7 @@ Themes
 	Shopping Themes
 	Maintenance Themes
 Site Navigation Controls
-
+	
 
 ________________________________________________________________
 Pages
@@ -29,10 +29,20 @@ Cart Page
 
 Checkout Page
 	Logins an existing customer before checking out
+	Register a new customer and store the new customer data in the SQL Server Database
+		Store Customer's name, address, city, state, zip, contact info, credit card info
+	Garther Payment info and store in SQL Server Database
+	Save invoice and cart items in the SQL Server Database
+	*Create a page that displays a sales receipt for the processing order
+		Must display the total for the sale and the invoice data including the items purchased
+	Display total amount of sale on the checkout page
+	Auto-generate email message that includes the order invoice, total, and the items purchased that is sent to a gmail account from 		an existing store gmail account
 
 Order History Page
 
 Invoice Page
+
+*Receipt Page
 
 Order Cancellation Page
 
