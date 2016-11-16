@@ -5,16 +5,36 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+<<<<<<< HEAD
     <asp:ContentPlaceHolder id="head" runat="server">
+=======
+    <asp:ContentPlaceHolder id="Head" runat="server">
+>>>>>>> refs/heads/pr/5
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="form1" runat="server">
+<<<<<<< HEAD
     <div>
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+=======
+    <aside>
+        <asp:Menu runat="server" DataSourceID="MaintSiteMap"></asp:Menu>
+        <asp:SiteMapDataSource ID="MaintSiteMap" runat="server" SiteMapProvider="MaintSiteMap" />
+    </aside>
+        
+    <div>
+        <asp:ContentPlaceHolder id="Form" runat="server">
+>>>>>>> refs/heads/pr/5
         
         </asp:ContentPlaceHolder>
     </div>
     </form>
+<<<<<<< HEAD
+=======
+    <footer>
+
+    </footer>
+>>>>>>> refs/heads/pr/5
 </body>
 </html>

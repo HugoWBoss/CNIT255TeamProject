@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="" title=""  description="" >
+      <siteMapNode url="~/Maint Pages/CategoryList.aspx" title="Category Management"  description="Category editing page" />
+      <siteMapNode url="~/Maint Pages/Customer.aspx" title="Customer Management" description="Customer editing page" />
+      <siteMapNode url="~/Maint Pages/OrderHistory.aspx" title="Order Histories" description="Order History" />
+      <siteMapNode url="~/Maint Pages/ProductList.aspx" title="Product Management" description="Product editing page" />
+      </siteMapNode>
+</siteMap>
