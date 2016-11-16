@@ -87,7 +87,7 @@ A Product can have only one Category.
 A Cart can only belong to one Customer.
 
 Customers
-	CustomerID, Name, Address, City, State, ZIP, Contact Info, Credit Card Info
+	CustomerID, Name, Address, City, State, ZIP, Phone, Email, CreditCardNumber, CardName, Username
 Invoices
 	InvoiceID, CustomerID
 Products
