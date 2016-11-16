@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MaintMaster.master.cs" Inherits="MaintMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="Head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <aside>
+        <asp:Menu runat="server" DataSourceID="MaintSiteMap"></asp:Menu>
+        <asp:SiteMapDataSource ID="MaintSiteMap" runat="server" SiteMapProvider="MaintSiteMap" />
+    </aside>
+        
+    <div>
+        <asp:ContentPlaceHolder id="Form" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    <footer>
+
+    </footer>
+</body>
+</html>
