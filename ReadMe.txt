@@ -18,11 +18,11 @@ Pages
 ----------------------------------------------------------------
 Master Page
 	Contact Info
-	Seperate Pages for Shopping and Maintenance
+	Seperate Pages for Shopping and Maintenance - Seperate Masterpages set up, need CSS/content - C
 
 Main Page
 	Description of Store
-	Links to Major Sections
+	Links to Major Sections - Sitemap and Nav menu set up on masterpages - C
 
 Order Page
 	Displays Purchaseable Items
@@ -75,7 +75,7 @@ Maintenance: Category Items Page
 Maintenance: Customer Page
 
 
-Site Navigation Page
+Site Navigation Page - Handled by Navigation Menu - C
 
 
 _______________________________________________________________________
