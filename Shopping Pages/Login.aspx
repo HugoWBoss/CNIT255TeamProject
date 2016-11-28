@@ -3,5 +3,9 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="Head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="Form" Runat="Server">
+    <asp:Login ID="Login1" runat="server"></asp:Login>
+    <div>
+        <a href="Register.aspx" runat="server">Register new account</a>
+    </div>
 </asp:Content>
 

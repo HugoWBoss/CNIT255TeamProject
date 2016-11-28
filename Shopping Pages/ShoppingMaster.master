@@ -9,9 +9,6 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-<<<<<<< HEAD
-    <form id="form1" runat="server">
-=======
     
     <%--    Navigation Pane--%>
 
@@ -22,7 +19,6 @@
         <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" SiteMapProvider="ShoppingSiteMap" />
     </aside>
 
->>>>>>> refs/heads/pr/5
     <div>
         <asp:ContentPlaceHolder id="Form" runat="server">
         
