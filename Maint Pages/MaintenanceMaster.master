@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MaintenanceMaster.master.cs" Inherits="Images_MaintenanceMaster"%>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Shopping.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        
+        <div style="text-align:center; background-color:aqua;" >
+            <img src="Images/aqualargebanner.png"/>
+        </div>
+        <div style="background-color:aqua; height:40px;">
+            <div style="text-align:right; margin-right:150px;"> 
+                <asp:LoginStatus ID="LoginStatus1" runat="server" style="background-color:lightgrey; border:solid; border-color:black; border-width:thin;"/> &nbsp;&nbsp;
+                <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/Images/view-cart-button.png" OnClick="ImageButton1_Click" />
+            </div>
+        </div>    
+          <div id="maintenanceWrapper">   
+            <div style="float:left; background-color:aqua; width:90px; height:500px;">
+            <asp:Menu ID="Menu1" runat="server" Orientation="Vertical">
+                    <DynamicHoverStyle BackColor="#3399FF" BorderColor="Black" BorderStyle="Solid" BorderWidth="1px" />
+                    <DynamicMenuItemStyle BackColor="aqua" ForeColor="Black" />
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/Shopping Pages/Main.aspx" Text="Home" Value="Home"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/Shopping Pages/Order.aspx" Text="Products" Value="Products"></asp:MenuItem>
+                        <asp:MenuItem Text="My Account" Value="My Account">
+                            <asp:MenuItem Text="Order History" Value="Order History"></asp:MenuItem>
+                        </asp:MenuItem>
+                    </Items>
+                    <StaticMenuItemStyle ForeColor="Black" />
+                </asp:Menu>
+            </div>
+                <div style="float:right; background-color:aqua; width:90px; height:500px;">
+            </div>
+        <asp:ContentPlaceHolder id="Form" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        
+        </div>
+        
+        
+    
+    <footer style="background-color:aqua; text-align:center;">
+        <a href="Contact.aspx" style="color:black;">Contact Us!</a>
+    </footer>
+    
+    </form>
+</body>
+</html>
