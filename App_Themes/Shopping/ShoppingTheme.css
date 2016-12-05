@@ -1,0 +1,36 @@
+﻿body {
+}
+
+.button {
+    border:solid;
+    border-color: #7C0D75;
+    background-color:violet;
+    font-weight:bold;
+    padding:.5em;
+}
+
+.textbox {
+    border:solid;
+    border-color:#7C0D75;
+}
+
+.dropdownlist {
+    border:solid;
+    border-color:#7C0D75;
+}
+
+.listbox {
+    border:solid;
+    border-color:#7C0D75;
+}
+
+.label {
+    font-family:sans-serif;
+    font-size:larger;
+}
+
+.validator {
+    font-weight:bold;
+    color: #7C0D75;
+    font-size:small;
+}
