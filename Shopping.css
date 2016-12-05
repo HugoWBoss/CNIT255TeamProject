@@ -1,0 +1,18 @@
+﻿body {
+}
+#wrapper {
+    /*max-width: 750px;
+    margin:0 auto;*/
+    border:solid;
+    border-color:#7C0D75;
+    border-width: medium;
+    height:500px;
+    /*padding-bottom:10px;
+    padding-left:5px;*/
+}
+#maintenanceWrapper {
+    border:solid;
+    border-color:aqua;
+    border-width: medium;
+    height:500px;
+}
