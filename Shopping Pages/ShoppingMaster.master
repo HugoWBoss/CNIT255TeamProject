@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="ShoppingMaster.master.cs" Inherits="ShoppingMaster"%>
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="Head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Shopping.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        
+        <div style="text-align:center; background-color:#7C0D75;" >
+            <img src="Images/largebannerCS.png"/>
+        </div>
+        <div style="background-color:#7C0D75; height:40px;">
+            <div style="text-align:right; margin-right:150px;"> 
+                <asp:LoginStatus ID="LoginStatus1" runat="server" style="background-color:lightgrey; border:solid; border-color:black; border-width:thin;"/> &nbsp;&nbsp;
+                <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/Images/view-cart-button.png" OnClick="ImageButton1_Click" />
+            </div>
+        </div>    
+          <div id="wrapper">   
+            <div style="float:left; background-color:#7C0D75; width:90px; height:500px;">
+            <asp:Menu ID="Menu1" runat="server" Orientation="Vertical">
+                    <DynamicHoverStyle BackColor="#9933FF" BorderColor="Black" BorderStyle="Solid" BorderWidth="1px" />
+                    <DynamicMenuItemStyle BackColor="#7C0D75" ForeColor="Yellow" />
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/Shopping Pages/Main.aspx" Text="Home" Value="Home"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/Shopping Pages/Order.aspx" Text="Products" Value="Products"></asp:MenuItem>
+                        <asp:MenuItem Text="My Account" Value="My Account">
+                            <asp:MenuItem Text="Order History" Value="Order History"></asp:MenuItem>
+                        </asp:MenuItem>
+                    </Items>
+                    <StaticMenuItemStyle ForeColor="Yellow" />
+                </asp:Menu>
+            </div>
+                <div style="float:right; background-color:#7C0D75; width:90px; height:500px;">
+            </div>
+        <asp:ContentPlaceHolder id="Form" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        
+        </div>
+        
+        
+    
+    <footer style="background-color:#7C0D75; text-align:center;">
+        <a href="Contact.aspx" style="color:yellow;">Contact Us!</a>
+    </footer>
+    
+    </form>
+   
+</body>
+</html>
