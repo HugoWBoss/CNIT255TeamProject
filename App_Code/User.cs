@@ -5,6 +5,7 @@ using System.Web;
 
 public class User
 {
+    public string CustomerID { get; set; }
     public string Username { get; set; }
     public string Password { get; set; }
     public string Email { get; set; }
@@ -15,5 +16,7 @@ public class User
     public string State { get; set; }
     public string Zipcode { get; set; }
     public string Phone { get; set; }
-    public int CardNumber { get; set; }
+    public string CardNumber { get; set; }
+    public string NameOnCard { get; set; }
+    public string SecurityNumber { get; set; }
 }
