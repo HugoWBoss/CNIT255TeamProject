@@ -1,5 +1,6 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -20,7 +21,7 @@ public partial class Order : System.Web.UI.Page
         labelCardType.Text = selectedProduct.CardType;
         labelCardDesc.Text = selectedProduct.CardDesc;
         labelPrice.Text = selectedProduct.Price.ToString("c") + " each";
-        imageProduct.ImageUrl = "Images/Products/" + selectedProduct.ImageFile;
+        imageProduct.ImageUrl = "~/Images/Products/" + selectedProduct.ImageFile;
     }
 
     private Product GetSelectedProduct()
@@ -36,12 +37,12 @@ public partial class Order : System.Web.UI.Page
         Product p = new Product();
         p.ProductID = row["ProductID"].ToString();
         p.Name = row["Name"].ToString();
-        p.CardNumber = row["CardNumber"].ToString();
+        p.CardNumber = row["ProductID"].ToString();
         p.Rarity = row["Rarity"].ToString();
-        p.CardType = row["CardType"].ToString();
-        p.CardDesc = row["CardDesc"].ToString();
+        p.CardType = row["CategoryID"].ToString();
+        p.CardDesc = row["Description"].ToString();
         p.Price = (decimal)row["Price"];
-        p.ImageFile = row["ImageFile"].ToString();
+        p.ImageFile = row["ImgURL"].ToString();
         return p;
     }
 
@@ -63,7 +64,7 @@ public partial class Order : System.Web.UI.Page
             {
                 cartItem.AddQuantity(Convert.ToInt32(textboxQuantity.Text));
             }
-            Response.Redirect("Cart.aspx", false);
+            Response.Redirect("Cart.aspx", true);
         }
     }
 }
