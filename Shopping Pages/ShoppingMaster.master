@@ -48,9 +48,7 @@
         
     
     <footer style="background-color:#7C0D75; text-align:center;">
-        <a href="Contact.aspx" style="color:yellow;">Contact Us!</a>
-        <br/>
-        <a href="SiteMap.aspx" style="color:yellow;">Site Map</a>
+        <a href="Contact.aspx" style="color:yellow;">Contact Us!</a> &nbsp&nbsp <a href="SiteMap.aspx" style="color:yellow;">Site Map</a>
     </footer>
     
     </form>
